@@ -8,8 +8,6 @@ public class Ciclos {
     public static void main(String[] args) {
 
 
-        //para
-
         List<String> miLista= new ArrayList<>();
 
         miLista.add("Mauricio");

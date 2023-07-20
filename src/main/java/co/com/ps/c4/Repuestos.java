@@ -4,13 +4,13 @@ class Repuestos {
 
 
     private String tipo;
-    private String tamaño;
+    private String tamano;
     private int codigo;
 
 
-    public Repuestos(String tipo, String tamaño) {
+    public Repuestos(String tipo, String tamano) {
         this.tipo = tipo;
-        this.tamaño = tamaño;
+        this.tamano = tamano;
     }
 
     public String getTipo() {
@@ -21,12 +21,12 @@ class Repuestos {
         this.tipo = tipo;
     }
 
-    public String getTamaño() {
-        return tamaño;
+    public String getTamano() {
+        return tamano;
     }
 
-    public void setTamaño(String tamaño) {
-        this.tamaño = tamaño;
+    public void setTamano(String tamano) {
+        this.tamano = tamano;
     }
 
     public Repuestos(int codigo) {
